@@ -1,0 +1,46 @@
+#contenedor-principal {
+  display: flex;
+}
+
+#izquierda,
+#derecha {
+  width: 50%;
+}
+
+#BENEFICIOS h2,
+#BENEFICIOS h4,
+#BENEFICIOS .beneficios p {
+  font-size: 19px;
+  color: black;
+}
+
+#BENEFICIOS h2 {
+  color: blue;
+}
+
+#BENEFICIOS h4,
+#BENEFICIOS .beneficios p {
+  font-weight: normal;
+}
+
+.nivel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nivel > div:first-child {
+  height: 90px;
+  width: 90px;
+}
+
+.nivel > div:last-child {
+  margin-left: 15px;
+  flex: 1;
+  text-align: left;
+}
+
+#imgAxure {
+  height: 150px;
+  float: right;
+}

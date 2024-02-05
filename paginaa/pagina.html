@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/hablador.css" />
+    <style>
+      #contenedor-principal {
+        display: flex;
+      }
+
+      #izquierda,
+      #derecha {
+        width: 50%;
+      }
+
+      #BENEFICIOS h2,
+      #BENEFICIOS h4,
+      #BENEFICIOS .beneficios p {
+        font-size: 19px;
+        color: black;
+      }
+
+      #BENEFICIOS h2 {
+        color: blue;
+      }
+
+      #BENEFICIOS h4,
+      #BENEFICIOS .beneficios p {
+        font-weight: normal;
+      }
+
+      .nivel {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .nivel > div:first-child {
+        height: 90px;
+        width: 90px;
+      }
+
+      .nivel > div:last-child {
+        margin-left: 15px;
+        flex: 1;
+        text-align: left;
+      }
+
+      #imgAxure {
+        height: 150px;
+        float: right;
+      }
+    </style>
+    <title>Axure Technologies</title>
+  </head>
+  <body>
+    <div id="contenedor-principal">
+      <div id="izquierda" style="background-color: antiquewhite">
+        <img id="imgAxure" src="./img/Axure-Logo-removebg-preview.png" alt="" />
+        <h2 style="color: blue">Sistema de Detector de Tormentas (TSW)</h2>
+        <h4>
+          La decisión final sobre cada una de las alertas será tomada por el
+          company man
+        </h4>
+        <div id="niveles">
+          <div class="nivel">
+            <div style="background-color: green"></div>
+            <div>
+              <h3><b>Nivel 0 - Verde</b></h3>
+              <p style="font-size: 15px; margin-top: -12px">
+                No hay riesgo por tormentas eléctricas, se pueden realizar
+                actividades.
+              </p>
+            </div>
+          </div>
+
+          <div class="nivel">
+            <div style="background-color: blue"></div>
+            <div>
+              <h3><b>Nivel 1 - Azul</b></h3>
+              <p style="font-size: 15px; margin-top: -12px">
+                Riesgo bajo por tormentas eléctricas, se recomienda precaución
+                en actividades al aire libre.
+              </p>
+            </div>
+          </div>
+
+          <div class="nivel">
+            <div style="background-color: yellow"></div>
+            <div>
+              <h3><b>Nivel 2 - Amarillo</b></h3>
+              <p style="font-size: 15px; margin-top: -12px">
+                Riesgo moderado por tormentas eléctricas, se recomienda limitar
+                actividades al aire libre.
+              </p>
+            </div>
+          </div>
+
+          <div class="nivel">
+            <div style="background-color: red"></div>
+            <div>
+              <h3><b>Nivel 3 - Rojo</b></h3>
+              <p style="font-size: 15px; margin-top: -12px">
+                Riesgo alto por tormentas eléctricas, se recomienda evitar
+                actividades al aire libre.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="derecha">
+        <img id="imgAxure" src="./img/Axure-Logo-removebg-preview.png" alt="" />
+        <div id="BENEFICIOS">
+          <h2 style="color: blue">Sistema de Detector de Tormentas (TSW)</h2>
+          <h4>
+            El sistema de alerta temprana de tormentas eléctricas - TSW
+            (ThunderStorm Wise) permite establecer alarmas de detección con base
+            en la predicción y localización total de rayos (rayos intra nube y
+            nube tierra).
+          </h4>
+          <h3 class="beneficios">BENEFICIOS</h3>
+          <div class="benefi1">
+            <p>
+              ⎔ Implementación de un sistema de alerta, monitoreo, seguimiento y
+              predicción de actividad de rayos en tiempo real
+            </p>
+            <p>
+              ⎔ Mitigación de fallas en el sistema de producción de prozos o
+              minas por consecuencia de rayos en el entorno.
+            </p>
+
+            <p>
+              ⎔ Prevención de posibles daños en sistemas de redes de
+              comunicaciones.
+            </p>
+
+            <p>
+              ⎔ Reducción de riesgos de incendios en tanques de almacenamiento
+              de combustibles generados por rayos, cauusando daños ambientales.
+            </p>
+            <p>
+              ⎔ Evitar accidentes o lesiones a los trabajadores de la operación
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
